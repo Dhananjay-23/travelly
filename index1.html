@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travelly</title>
+
+
+  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light ">
+    <a class="navbar-brand" href="#">Travelly</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample04">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Flights</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hotels</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Packages</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="mainbody">
+    <h1 class="maintext">
+      Explore with Travelly
+    </h1>
+    <h3>
+      Start your next Memorable trip
+    </h3>
+  </div>
+  <div class="booking">
+    <table>
+      <tr>
+        <td>
+          <form>
+            <input type="text" name="dest" id="dest" placeholder="Destination">
+          </form>
+        </td>
+        <td>
+          <form>
+            <input type="text" name="budg" id="budg" placeholder="Approximate Budget(₹)">
+          </form>
+        </td>
+        </tr>
+        <tr>
+        <td>
+          <form>
+            <label for="start"> Trip begins on:</label>
+            <input type="date" name="start" id="start">
+          </form>
+        </td>
+        <td>
+          <label for="end"> Trip ends on:</label>
+            <input type="date" name="end" id="end">
+          </form>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <form action="/" method="post">
+    <button type="submit" class="btn btn-info">Check out Packages</button>
+    </form>
+  </div>
+
+  <div class="top">
+    <h2>Our Hot Packages</h2>
+    <table>
+      <tr>
+        <td>
+    <div class="city mana">
+      <h1>Manali</h1>
+      <p>
+        A gift of the Himalayas to the world, Manali is a beautiful township nestled in the picturesque Beas River valley. It is a rustic enclave known for its cool climate and snow-capped mountains, offering respite to tourists escaping scorching heat of the plains.
+      </p>
+      <button type="button" class="explore">Explore →</button>
+    </div>
+    </td>
+    <td>
+    <div class="city goa">
+      <h1>Goa</h1>
+      <p>
+        Goa along with being a popular beach destination in India is a perfect honeymoon destination, a great getaway with friends, and an amazing family holiday place, which means, the place is filled with activities and attractions to keep all its visitors engaged.      
+      </p>
+      <button type="button" class="explore">Explore →</button>
+    </div>
+  </td>
+  <td>
+    <div class="city jai">
+    <h1>Jaipur</h1>
+    <p>
+      Jaipur is known as much for its fascinating monuments and colorful markets as it is for its gorgeous handloom garments and wonderfully laid-out gardens. It is really not very difficult to fall in love with Jaipur the moment you land here.    
+    </p>
+    <button type="button" class="explore">Explore →</button>
+  </div>
+</td>
+</tr>
+</table>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

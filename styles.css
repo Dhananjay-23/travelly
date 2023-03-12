@@ -1,0 +1,99 @@
+body {
+    padding-bottom: 20px;
+    /* background-image: url(mainimg.jpg);
+    background-size: 1200px,1200px; */
+    background: url(mainimg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.booking
+{
+    text-align: center;
+    background-color: rgba(173, 216, 230, 0.329);
+    margin-top: 110px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 20px;
+    border-radius: 40px;
+    
+}
+.maintext{
+    padding: 20px;
+    font-family: 'Rampart One', cursive;
+    font-size: 75px;
+    color: rgb(0, 0, 0);
+}
+.mainbody
+{
+    margin-top: 30px;
+    text-align: center;
+    padding: 40px;
+}
+.navbar {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background-color: rgba(255, 222, 173, 0);
+}
+.navbar-nav{
+    position: absolute;
+    right: 30px;
+}
+.navbar-brand{
+    padding-left: 50px;
+    font-family: 'Pacifico';
+    font-size: 400px;
+}
+.nav-item
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.nav-item:hover{
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+td{
+    padding: 10px;
+}
+.top
+{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 100px;
+    /* display: inline; */
+}
+.city
+{
+    width: 90%;
+    background-color: antiquewhite;
+    padding: 50px;
+}
+.jai
+{
+    background-image: url(jaip2.jpg);
+    color: aliceblue;
+}
+.goa{
+    background-image: url(goa-2.jpg);
+}
+.mana
+{
+    background-image: url(manali.jpg);
+    color: rgb(88, 79, 79);
+}
+.explore
+{
+    background-color: gray;
+    padding-left: 15px;
+    padding-right: 15x;
+    border-radius: 20px;
+    font-size: large;
+}
+.explore:hover{
+    background-color: white;
+}
